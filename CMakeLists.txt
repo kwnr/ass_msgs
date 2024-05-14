@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(interass)
+project(ass_msgs)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -21,7 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UIAction.msg"
   "msg/UI2Robot.msg"
   "msg/ArmMasterCommInt.msg"
-  DEPENDENCIES std_msgs 
+  DEPENDENCIES builtin_interfaces std_msgs 
 )
 install(
   FILES master_bridge_mapping_rule.yaml

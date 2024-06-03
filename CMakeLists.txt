@@ -12,6 +12,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 find_package(std_msgs REQUIRED)
+find_package(trajectory_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Hold.msg"
@@ -21,7 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UIAction.msg"
   "msg/UI2Robot.msg"
   "msg/ArmMasterCommInt.msg"
-  DEPENDENCIES builtin_interfaces std_msgs 
+  "msg/TrajectoryPoint.msg"
+  DEPENDENCIES builtin_interfaces std_msgs trajectory_msgs
 )
 install(
   FILES master_bridge_mapping_rule.yaml

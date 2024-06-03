@@ -1,0 +1,3 @@
+bool enabled
+trajectory_msgs/JointTrajectoryPoint point
+float32 trigger

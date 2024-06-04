@@ -1,0 +1,7 @@
+# goal
+---
+# result
+bool finished
+---
+# feedback
+trajectory_msgs/JointTrajectoryPoint point_at

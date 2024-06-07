@@ -1,4 +1,6 @@
 # request
+string pipeline_id
+string planner_id
 ---
 # response
 moveit_msgs/MotionPlanResponse response

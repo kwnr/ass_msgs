@@ -25,6 +25,7 @@ set(msg_files
   "msg/UI2Robot.msg"
   "msg/ArmMasterCommInt.msg"
   "msg/TrajectoryPoint.msg"
+  "msg/TrajectoryExecution.msg"
 )
 set(srv_files
   "srv/RequestPlan.srv"

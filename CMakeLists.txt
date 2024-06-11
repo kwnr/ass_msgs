@@ -26,6 +26,7 @@ set(msg_files
   "msg/ArmMasterCommInt.msg"
   "msg/TrajectoryPoint.msg"
   "msg/TrajectoryExecution.msg"
+  "msg/TrajectoryEnabled.msg"
 )
 set(srv_files
   "srv/RequestPlan.srv"

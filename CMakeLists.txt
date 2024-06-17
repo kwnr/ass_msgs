@@ -27,6 +27,7 @@ set(msg_files
   "msg/TrajectoryPoint.msg"
   "msg/TrajectoryExecution.msg"
   "msg/TrajectoryEnabled.msg"
+  "msg/DXLCommand.msg"
 )
 set(srv_files
   "srv/RequestPlan.srv"

@@ -29,6 +29,10 @@ set(msg_files
   "msg/TrajectoryEnabled.msg"
   "msg/DXLCommand.msg"
   "msg/ManualVolt.msg"
+  "msg/ARMstrongTrajectory.msg"
+  "msg/ARMstrongTrajectoryEnabled.msg"
+  "msg/ARMstrongTrajectoryExecution.msg"
+  "msg/ARMstrongTrajectoryFeedback.msg"
 )
 set(srv_files
   "srv/RequestPlan.srv"

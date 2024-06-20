@@ -27,6 +27,7 @@ set(msg_files
   "msg/TrajectoryPoint.msg"
   "msg/TrajectoryExecution.msg"
   "msg/TrajectoryEnabled.msg"
+  "msg/TrajectoryFeedback.msg"
   "msg/DXLCommand.msg"
   "msg/ManualVolt.msg"
   "msg/ARMstrongTrajectory.msg"
